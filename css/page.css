@@ -1,0 +1,241 @@
+
+
+.Whole_Page {
+    background-color: #F3F3F1;
+    width: 100vw;
+}
+
+.top {
+    height: 20px;
+}
+
+header {
+    font-family: 'Abel', sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    height: 40px;
+    color: black;
+}
+
+.logo {
+    height: 160px;
+    text-align: center;
+}
+
+.image {
+    max-height: 100%; 
+}
+
+.title {
+    font-family: 'Abel', sans-serif;
+    font-size: 14pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20pt;
+    color: black;
+}
+
+.title2 {
+    font-family: 'Abel', sans-serif;
+    font-size: 14pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10pt;
+    color: black;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 5vw);
+    grid-gap: 10px;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.gallery__item--2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.gallery__item--3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.gallery__item--4 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.gallery__item--5 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 7;
+    grid-row-end: 12;
+}
+
+.gallery__item--6 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 12;
+}
+
+.gallery__item--7 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 12;
+}
+
+.gallery__item--8 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 12;
+}
+
+.gallery__item {
+    font-family:'Courier Prime', monospace;
+    font-size: 10pt;
+    color: black;
+    text-align: center;
+}
+
+.gap {
+    width: 100vw;
+    height: 50px;
+}
+
+.flexcontainerB {
+    display: flex;
+    flex-direction: column;
+    background-color: #E2C5C0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Text_Underneath {
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size: 12pt;
+    color: #20364C;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+footer{background-color:black}
+footer{width:100vw}
+footer{height:70px}
+
+.Twitter_Link {
+    margin-top: 18px;
+    margin-right: 5px;
+}
+
+.Twitter_Text {
+    margin-top: 20px;
+    margin-left: 4px;
+}
+
+.Instagram_Text {
+    margin-right: 20px;
+    margin-top:20px;
+}
+
+.Instagram_Link {
+    margin-top: 10px;
+}
+
+.Email_Link {
+    margin-left: 20px;
+    margin-top: 19px;
+    margin-right: 8px;
+}
+
+.Email_Text {
+    margin-top: 20px;
+}
+
+.flexContainerC {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100vw;
+    justify-content: center;
+    font-family:'Abel', sans-serif;
+    font-size: 12pt;
+    color: white;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; /* Some padding */ 
+    border: 
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color:#e1c699;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: black;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color:WHITE;
+    padding: 20px;
+    font-family: 'Abel', sans-serif;
+  }
+
+
+  .commission {
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    color: grey;
+    margin: 20px;
+  }
+
+  .commissionbottom {
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
