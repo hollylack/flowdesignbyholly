@@ -5,7 +5,7 @@
     width: 100vw;
 }
 
-a {color: black;
+a {color:inherit;
 text-decoration: bold;} 
 
 header {
@@ -64,6 +64,12 @@ header {
     object-fit: cover;
     margin-bottom: 5px;
 }
+
+@media (max-width: 400px) {
+    .gallery {
+      display: block;
+    }
+  }
 
 
 .gallery__item--1 {
@@ -132,6 +138,7 @@ header {
 .Instagram_Text {
     margin-right: 20px;
     margin-top:20px;
+    margin-bottom: 20px;
 }
 
 .Instagram_Link {
@@ -146,23 +153,29 @@ header {
 
 .Email_Text {
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Paypal_Text {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
   .commissionbottom {
-    font-family: 'Abel', sans-serif;
+    font-family:'Abel', sans-serif;
+    font-size: 14pt;
     text-align: center;
-    margin: 20px;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 
-footer {
-    min-height: 300px;
-}
 
 .flexContainerC {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
     font-family:'Abel', sans-serif;
     font-size: 12pt;
@@ -172,7 +185,6 @@ footer {
 .flexContainerD {
     background-color:black;
     width:100%;
-    height:70px;
 }
 
 
