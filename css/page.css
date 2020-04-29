@@ -13,11 +13,10 @@ header {
 }
 
 .orderbanner {
-    margin: 20px;
     font-family: 'Abel', sans-serif;
-    font-size: 18pt;
-    color: white;
-    background-color: black;
+    font-size: 15pt;
+    color:black;
+    background-color: beige;
     padding:10px;
 }
 
@@ -27,35 +26,26 @@ header {
 }
 
 .image {
-    max-height: 160%; 
+    max-height: 130%; 
 }
 
 .title {
-    font-family:'Courier Prime', monospace;
+    font-family:'Abel', sans-serif;
     font-size: 16pt;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 80pt;
-    color: black;
-}
-
-.title2 {
-    font-family:'Courier Prime', monospace;
-    font-size: 16pt;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
+    margin-top: 50pt;
     color: black;
 }
 
 .delivery {
-    font-family:'Courier Prime', monospace;
-    text-align: center;
-    font-size: 18px;
-    color:grey;
-    margin: 20px;
+    font-family: 'Pacifico', cursive;
+    font-size: 16pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
   }
 
 .gallery {
