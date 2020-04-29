@@ -7,16 +7,18 @@
 
 header {
    text-align: center;
-   min-height: 1200px;
-   margin-left: 10%;
-   margin-right: 10%;
+   min-height: 300px;
+   margin-left: 5%;
+   margin-right: 5%;
 }
 
 .orderbanner {
     margin: 20px;
     font-family: 'Abel', sans-serif;
-    font-size: 12pt;
-    color: black;
+    font-size: 18pt;
+    color: white;
+    background-color: black;
+    padding:10px;
 }
 
 .logo {
@@ -25,23 +27,34 @@ header {
 }
 
 .image {
-    max-height: 100%; 
+    max-height: 160%; 
 }
 
 .title {
-    font-family: 'Abel', sans-serif;
-    font-size: 14pt;
+    font-family:'Courier Prime', monospace;
+    font-size: 16pt;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10pt;
+    margin-top: 80pt;
     color: black;
 }
 
-.commission {
-    font-family: 'Abel', sans-serif;
+.title2 {
+    font-family:'Courier Prime', monospace;
+    font-size: 16pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.delivery {
+    font-family:'Courier Prime', monospace;
     text-align: center;
-    color: grey;
+    font-size: 18px;
+    color:grey;
     margin: 20px;
   }
 
