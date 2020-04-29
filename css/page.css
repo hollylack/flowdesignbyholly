@@ -5,10 +5,8 @@
     width: 100vw;
 }
 
-a {
-color: inherit;
-text-decoration: none;
-} 
+a {color: black;
+text-decoration: bold;} 
 
 header {
    text-align: center;
