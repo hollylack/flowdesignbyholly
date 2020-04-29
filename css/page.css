@@ -11,8 +11,8 @@ text-decoration: bold;}
 header {
    text-align: center;
    min-height: 300px;
-   margin-left: 5%;
-   margin-right: 5%;
+   margin-left: 2%;
+   margin-right: 2%;
 }
 
 .orderbanner {
@@ -162,7 +162,7 @@ footer {
 .flexContainerC {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     width: 100vw;
     justify-content: center;
     font-family:'Abel', sans-serif;
