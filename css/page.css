@@ -81,6 +81,9 @@ header {
     .gallery {
       display: block;
     }
+    .flexContainerC {
+        display: block;
+    }
   }
 
 
