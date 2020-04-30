@@ -38,6 +38,7 @@ header {
     justify-content: center;
     margin-top: 50pt;
     color: black;
+    margin-bottom: 30px;
 }
 
 .delivery {
@@ -47,7 +48,6 @@ header {
     align-items: center;
     justify-content: center;
     color: black;
-    margin-top: 10px;
   }
 
 .price {
@@ -57,9 +57,8 @@ header {
     color: black;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
     text-decoration: italic;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     background-color:white;
 }
 
@@ -80,9 +79,6 @@ header {
 @media (max-width: 400px) {
     .gallery {
       display: block;
-    }
-    .flexContainerC {
-        display: block;
     }
   }
 
@@ -151,29 +147,29 @@ header {
 }
 
 .Instagram_Text {
-    margin-right: 18px;
+    margin-right: ;
     margin-top:20px;
     margin-bottom: 20px;
 }
 
 .Instagram_Link {
     margin-top: 10px;
+    margin-right: 20px;
 }
 
 .Email_Link {
-    margin-left: 70px;
     margin-top: 19px;
-    margin-right: 8px;
+    margin-right: 25px;
 }
 
 .Email_Text {
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: 8px;
 }
 
 .Paypal_Text {
     margin-top: 20px;
-    margin-left: 70px;
     margin-bottom: 20px;
 }
 
@@ -190,10 +186,12 @@ header {
 .flexContainerC {
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
     justify-content: center;
     font-family:'Abel', sans-serif;
     font-size: 12pt;
     color: white;
+    display: inline-flex;
 }
 
 .flexContainerD {
