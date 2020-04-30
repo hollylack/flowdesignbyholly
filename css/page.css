@@ -12,12 +12,11 @@ header {
 
 .orderbanner {
     font-family: 'Abel', sans-serif;
-    font-size: 13pt;
+    font-size: 12pt;
     color:black;
-    background-color:white;
     padding:12px;
-    width: 98%;
-    border-radius: 5px;
+    width: 700px;
+    border-radius: 45px;
     align-content: center;
     display: inline-block;
 }
@@ -59,8 +58,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    margin-left: 488px;
-    margin-right: 488px;
+    text-decoration: italic;
     margin-bottom: 10px;
     background-color:white;
 }
