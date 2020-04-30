@@ -163,7 +163,7 @@ header {
 .Email_Link {
     margin-left: 70px;
     margin-top: 19px;
-    margin-right: 4px;
+    margin-right: 8px;
 }
 
 .Email_Text {
@@ -189,7 +189,6 @@ header {
 
 .flexContainerC {
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
     justify-content: center;
     font-family:'Abel', sans-serif;
