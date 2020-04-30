@@ -1,26 +1,25 @@
 
 
-.Whole_Page {
-    background-color: #F3F3F1;
-    width: 100vw;
-}
-
 a {color:inherit;
 text-decoration: bold;} 
 
 header {
    text-align: center;
    min-height: 300px;
-   margin-left: 2%;
-   margin-right: 2%;
+   margin-left:3%;
+   margin-right:3%;
 }
 
 .orderbanner {
     font-family: 'Abel', sans-serif;
-    font-size: 15pt;
+    font-size: 13pt;
     color:black;
-    background-color: beige;
-    padding:10px;
+    background-color:white;
+    padding:12px;
+    width: 98%;
+    border-radius: 5px;
+    align-content: center;
+    display: inline-block;
 }
 
 .logo {
@@ -49,7 +48,22 @@ header {
     align-items: center;
     justify-content: center;
     color: black;
+    margin-top: 10px;
   }
+
+.price {
+    font-family:'Abel', sans-serif;
+    font-size: 12pt;
+    align-content: center;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 488px;
+    margin-right: 488px;
+    margin-bottom: 10px;
+    background-color:white;
+}
 
 .gallery {
     display: grid;
