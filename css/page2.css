@@ -1,0 +1,203 @@
+
+a {color:inherit;
+    text-decoration: bold;} 
+    
+    header {
+       text-align: center;
+       min-height: 300px;
+       margin-left:3%;
+       margin-right:3%;
+    }
+    
+    .orderbanner {
+        font-family: 'Abel', sans-serif;
+        font-size: 12pt;
+        color:black;
+        padding:12px;
+        border-radius: 45px;
+        align-content: center;
+        display: inline-block;
+        width:90%;
+    }
+
+    .middle {
+        
+    }
+    
+    .logo {
+        height: 160px;
+        text-align: center;
+    }
+    
+    .image {
+        max-height: 130%; 
+    }
+    
+    .title {
+        font-family:'Abel', sans-serif;
+        font-size: 16pt;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50pt;
+        color: black;
+        margin-bottom: 30px;
+    }
+    
+    .delivery {
+        font-family: 'Pacifico', cursive;
+        font-size: 16pt;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+      }
+    
+    .price {
+        font-family:'Abel', sans-serif;
+        font-size: 12pt;
+        align-content: center;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        text-decoration: italic;
+        margin-bottom: 20px;
+        background-color:white;
+    }
+    
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        grid-template-rows: repeat(4, 5vw);
+        grid-gap: 10px;
+    }
+    
+    .gallery__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-bottom: 5px;
+    }
+    
+    @media (max-width: 400px) {
+        .gallery {
+          display: block;
+        }
+      }
+    
+    
+    .gallery__item--1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 6;
+    }
+    
+    .gallery__item--2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 6;
+    }
+    
+    .gallery__item--3 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 6;
+    }
+    
+    .gallery__item--4 {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 6;
+    }
+    
+    .gallery__item--5 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 7;
+        grid-row-end: 12;
+    }
+    
+    .gallery__item--6 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 7;
+        grid-row-end: 12;
+    }
+    
+    .gallery__item--7 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 7;
+        grid-row-end: 12;
+    }
+    
+    .gallery__item--8 {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 7;
+        grid-row-end: 12;
+    }
+    
+    .gallery__item {
+        font-family:'Courier Prime', monospace;
+        font-size: 10pt;
+        color: black;
+        text-align: center;
+    }
+    
+    .Instagram_Text {
+        margin-right: ;
+        margin-top:20px;
+        margin-bottom: 20px;
+    }
+    
+    .Instagram_Link {
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    
+    .Email_Link {
+        margin-top: 19px;
+        margin-right: 25px;
+    }
+    
+    .Email_Text {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 8px;
+    }
+    
+    .Paypal_Text {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+      .commissionbottom {
+        font-family:'Abel', sans-serif;
+        font-size: 14pt;
+        text-align: center;
+        color: black;
+        margin-bottom: 20px;
+        margin-top: 20px;
+      }
+    
+    
+    .flexContainerC {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-family:'Abel', sans-serif;
+        font-size: 12pt;
+        color: white;
+        display: inline-flex;
+    }
+    
+    .flexContainerD {
+        background-color:black;
+        width:100%;
+    }
