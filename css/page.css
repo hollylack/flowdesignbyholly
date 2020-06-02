@@ -15,14 +15,14 @@ header {
     font-size: 12pt;
     color:black;
     padding:12px;
-    border-radius: 45px;
     align-content: center;
     display: inline-block;
-    width:90%;
+    width:100%;
+    background-color;
 }
 
 .logo {
-    height: 160px;
+    height: 120px;
     text-align: center;
 }
 
@@ -30,20 +30,24 @@ header {
     max-height: 130%; 
 }
 
+.postagebanner {
+height: 20px;
+}
+
 .title {
     font-family:'Abel', sans-serif;
-    font-size: 16pt;
+    font-size: 14pt;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50pt;
+    margin-top: 30pt;
     color: black;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .delivery {
     font-family: 'Pacifico', cursive;
-    font-size: 16pt;
+    font-size: 14pt;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -147,7 +151,7 @@ header {
 }
 
 .gallery__item {
-    font-family:'Courier Prime', monospace;
+    font-family: 'Abel', sans-serif;
     font-size: 10pt;
     color: black;
     text-align: center;
@@ -156,7 +160,7 @@ header {
 
 .Commissions {
     font-family:'Abel', sans-serif;
-    font-size: 16pt;
+    font-size: 14pt;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -166,7 +170,7 @@ header {
 }
 
 .Instagram_Text {
-    margin-right: ;
+    margin-right: 9px;
     margin-top:20px;
     margin-bottom: 20px;
 }
@@ -177,7 +181,7 @@ header {
 }
 
 .Email_Link {
-    margin-top: 19px;
+    margin-top: 12px;
     margin-right: 25px;
 }
 
@@ -193,12 +197,12 @@ header {
 }
 
   .commissionbottom {
-    font-family:'Abel', sans-serif;
+    font-family:'Pacifico', cursive;
     font-size: 14pt;
     text-align: center;
     color: black;
     margin-bottom: 20px;
-    margin-top: 60px;
+    margin-top: 5px;
   }
 
 
@@ -209,11 +213,11 @@ header {
     justify-content: center;
     font-family:'Abel', sans-serif;
     font-size: 12pt;
-    color: white;
+    color: black;
     display: inline-flex;
 }
 
 .flexContainerD {
-    background-color:black;
     width:100%;
+    margin-top: 60px;
 }
