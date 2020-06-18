@@ -36,14 +36,68 @@ height: 20px;
 
 .title {
     font-family:'Abel', sans-serif;
-    font-size: 14pt;
+    font-size: 18pt;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30pt;
+    margin-top: 10pt;
     color: black;
     margin-bottom: 10px;
 }
+
+.tagline {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #F0E7D4;
+    padding: 10px;
+    width: 200px;
+    border-radius: 6px;
+    display: inline-block;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.orderpage {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: black;
+    padding: 3px;
+    color: white;
+    width: 160px;
+    border-radius: 6px;
+    display: inline-block;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.browsepage {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: black;
+    padding: 3px;
+    color: white;
+    width: 160px;
+    border-radius: 6px;
+    display: inline-block;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.orderpage2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 3px;
+    color: white;
+    width: 160px;
+    border-radius: 6px;
+    display: inline-block;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
 
 .titleunder {
     font-family:'Abel', sans-serif;
@@ -51,12 +105,11 @@ height: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 0pt;
     color: black;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
-.titleunder2 {
+/////titleunder2 {
     font-family: 'Abel', sans-serif;
     font-size: 12pt;
     text-align: center;
@@ -64,19 +117,74 @@ height: 20px;
     margin-top: 0pt;
     background-color:#F0E7D4;
     margin-bottom: 10px;
-    width: 200px;
+    width: 120px;
+    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 40px;
+    opacity: 0.7;
+    transition: 0.3s;
+    margin-top: 10px;
 }
 
-.orderdetails {
+.howtoorder {
     font-family:'Abel', sans-serif;
     font-size: 12pt;
+    color: :black;
+    text-align: center;
+    display:inline-block;
+    margin-bottom: 20px;
+    display: inline-block;
+    width:100%;
+    max-width: 700px;
+}
+
+.productdetails {
+    font-family:'Abel', sans-serif;
+    font-size: 12pt;
+    color: :black;
+    max-width: 700px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    width:100%;
+}
+
+.deliveryoptions {
+    font-family:'Abel', sans-serif;
+    font-size: 12pt;
+    color: :black;
+}
+
+.toyou, .tothem {
+    width: 400px;
+}
+
+.or {
+    width:20px;
+    margin-left: 20px;
+    background-color: #F0E7D4;
+    padding: 10px;
+    border-radius: 50px;
+    max-height: 20px;
+}
+
+.flexcontainerE {
+    font-family:'Abel', sans-serif;
+    font-size: 12pt;
     color: black;
-    margin-bottom: 10px;
-    margin-right: 70px;
-    width: 900px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.flexcontainerG {
+    font-family:'Abel', sans-serif;
+    font-size: 12pt;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .orderdetails2 {
@@ -87,6 +195,7 @@ height: 20px;
     justify-content: center;
     color: black;
     background-color: #F0E7D4;
+    margin-top: 40px;
 }
 
 .post {
@@ -115,6 +224,7 @@ margin-left: 30px;
 }
 
 .gallery {
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat(4, 5vw);
@@ -288,5 +398,10 @@ margin-left: 30px;
 
 .flexContainerD {
     width:100%;
-    margin-top: 60px;
+    margin-top: 20px;
+}
+
+.flexContainerF {
+    width:100%;
+    margin-top: 20px;
 }
