@@ -83,6 +83,7 @@ flex-wrap: wrap;
 width: 300px;
 padding-top:20px;
 padding-left:20px;
+max-width: 100%;
 }
 
 
@@ -96,6 +97,7 @@ padding-left:20px;
         flex-wrap: wrap;
         width: 400px;
         padding:20px;
+        max-width: 100%;
         }
         
 .arrow {
@@ -160,11 +162,11 @@ height: 20px;
 .title {
     font-family: 'Cedarville Cursive', cursive;
     font-size: 28pt;
-    display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 30pt;
     color: black;
+    max-width: 100%;
 }
 
 h4 {
