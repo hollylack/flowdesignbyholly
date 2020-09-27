@@ -64,6 +64,8 @@ text-decoration: white;}
     opacity: 80%;
 }
 
+  }
+
 .stickerpicsmall {
     width: 65%;
     opacity: 80%;
@@ -120,7 +122,14 @@ max-width: 90%;
 
         @media screen and (max-width: 600px) {
             div.one {
-                width:410px;
+                width:250px;
+                padding-left: 0px;
+            }
+          }
+
+          @media screen and (max-width: 600px) {
+            div.three {
+                width:290px;
                 padding-left: 0px;
             }
           }
