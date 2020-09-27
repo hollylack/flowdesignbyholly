@@ -37,17 +37,14 @@ text-decoration: white;}
 
 @media screen and (max-width: 600px) {
     div.topbanner {
-      margin-left: 20%;
+      margin-left: 10%;
     }
   }
 
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 400px) {
     div.sticker {
-      margin-left: 5%;
-      padding-left: 0px;
-      padding-right: 0px;
-      padding-top: 50px;
+    opacity: 0%;
     }
   }
 
@@ -124,13 +121,14 @@ max-width: 90%;
                 width:320px;
                 padding-left: 0px;
                 font-size: 16pt;
+                margin-bottom: 40px;
             }
           }
 
           @media screen and (max-width: 600px) {
             div.three {
                 width:320px;
-                padding-left: 0px;
+                padding: 0px;
                 font-size: 16pt;
             }
           }
@@ -143,18 +141,29 @@ max-width: 90%;
 
           @media screen and (max-width: 600px) {
             div.two {
-                background-color:rgb(213, 218, 213);
-                border-radius: 15pt;
                 padding-top:0px;
                 width:320px;
                 padding-left: 20px;
                 font-size: 16pt;
+                background: rgb(247, 246, 243);
             }
           }
 
           @media screen and (max-width: 600px) {
             div.FlexcontainerZ {
                margin-left: 0%;
+            }
+          }
+
+          @media screen and (max-width: 600px) {
+            div.flexContainerC {
+               width: 370px;
+            }
+          }
+
+          @media screen and (max-width: 600px) {
+            div.orderdetails2 {
+               width: 370px;
             }
           }
 
@@ -225,12 +234,18 @@ height: 20px;
     justify-content: center;
     margin-top: 30pt;
     color: black;
-    max-width: 100%;
 }
 
 @media screen and (max-width: 600px) {
     div.title {
       font-size: 18pt;
+      width: 360px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    div.logo {
+      width: 370px;
     }
   }
 
