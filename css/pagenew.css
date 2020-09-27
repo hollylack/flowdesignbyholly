@@ -121,17 +121,23 @@ max-width: 90%;
 
         @media screen and (max-width: 600px) {
             div.one {
-                width:180px;
+                width:320px;
                 padding-left: 0px;
-                font-size: 14pt;
+                font-size: 16pt;
             }
           }
 
           @media screen and (max-width: 600px) {
             div.three {
-                width:180px;
+                width:320px;
                 padding-left: 0px;
-                font-size: 14pt;
+                font-size: 16pt;
+            }
+          }
+
+          @media screen and (max-width: 600px) {
+            div.shoplink2 {
+                width:210px;
             }
           }
 
@@ -140,9 +146,9 @@ max-width: 90%;
                 background-color:rgb(213, 218, 213);
                 border-radius: 15pt;
                 padding-top:0px;
-                width:180px;
+                width:320px;
                 padding-left: 20px;
-                font-size: 14pt;
+                font-size: 16pt;
             }
           }
 
