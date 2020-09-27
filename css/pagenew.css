@@ -2,7 +2,9 @@
 
 a {color:inherit;
 text-decoration: bold;
-text-decoration: white;} 
+text-decoration: white;
+border-bottom: none;
+} 
 
 
 
@@ -22,6 +24,7 @@ text-decoration: white;}
 @media screen and (max-width: 600px) {
     a {
     text-decoration:remove;
+    border-bottom: none;
     }
   }
 
