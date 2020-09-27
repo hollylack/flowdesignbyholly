@@ -19,6 +19,8 @@ text-decoration: white;}
     width: 400px;
 }
 
+
+
 .topbannersmall {
     position: fixed;
     background-color: black;
@@ -32,6 +34,21 @@ text-decoration: white;}
     width: 450px;
     font-size: 16pt;
 }
+
+@media screen and (max-width: 600px) {
+    div.topbanner {
+      margin-left: 20%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    div.sticker {
+      margin-left: 5%;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 50px;
+    }
+  }
 
 .sticker {
     position: fixed;
@@ -168,6 +185,33 @@ height: 20px;
     color: black;
     max-width: 100%;
 }
+
+@media screen and (max-width: 600px) {
+    div.title {
+      font-size: 18pt;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    div.about {
+      font-size: 15px;
+      margin-top: 10px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    div.gal {
+      font-size: 15px;
+      margin-top: 10px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    div.order {
+      font-size: 15px;
+      margin-top: 10px;
+    }
+  }
 
 h4 {
     font-family: 'Cedarville Cursive', cursive;
