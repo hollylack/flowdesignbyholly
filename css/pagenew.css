@@ -19,7 +19,11 @@ text-decoration: white;}
     width: 400px;
 }
 
-
+@media screen and (max-width: 400px) {
+    a {
+    text-decoration: white;
+    }
+  }
 
 .topbannersmall {
     position: fixed;
@@ -37,7 +41,7 @@ text-decoration: white;}
 
 @media screen and (max-width: 600px) {
     div.topbanner {
-      margin-left: 10%;
+      margin-left: 5%;
     }
   }
 
@@ -146,6 +150,7 @@ max-width: 90%;
                 padding-left: 20px;
                 font-size: 16pt;
                 background: rgb(247, 246, 243);
+                margin-bottom: 30px;
             }
           }
 
@@ -239,13 +244,13 @@ height: 20px;
 @media screen and (max-width: 600px) {
     div.title {
       font-size: 18pt;
-      width: 360px;
+      width: 340px;
     }
   }
 
   @media screen and (max-width: 600px) {
     div.logo {
-      width: 370px;
+      width: 350px;
     }
   }
 
