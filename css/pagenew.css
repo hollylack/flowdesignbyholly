@@ -23,11 +23,12 @@ border-bottom: none;
 
 .my-store-37062369 {
     margin-top: 20px;
-    color: rgb(95, 35, 48); 
 }
 
 .orderin {
     font-family: 'Cedarville Cursive', cursive;
+    color: rgb(95, 35, 48); 
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 600px) {
