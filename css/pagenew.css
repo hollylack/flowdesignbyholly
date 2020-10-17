@@ -21,6 +21,14 @@ border-bottom: none;
     width: 400px;
 }
 
+.my-store-37062369 {
+    margin-top: 20px;
+}
+
+.orderin {
+    background-color: rgb(134, 151, 134);
+}
+
 @media screen and (max-width: 600px) {
     a {
     text-decoration:remove;
