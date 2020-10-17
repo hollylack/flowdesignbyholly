@@ -28,6 +28,7 @@ border-bottom: none;
 .orderin {
     color: rgb(29, 58, 23); 
     margin-bottom: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 @media screen and (max-width: 600px) {
