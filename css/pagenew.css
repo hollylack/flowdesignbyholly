@@ -26,7 +26,7 @@ border-bottom: none;
 }
 
 .orderin {
-    background-color: rgb(134, 151, 134);
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 @media screen and (max-width: 600px) {
