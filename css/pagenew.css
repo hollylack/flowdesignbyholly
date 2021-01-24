@@ -7,6 +7,18 @@ border-bottom: none;
 } 
 
 
+.yourphoto {
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+    .yourphoto {
+    width: 100%;
+    }
+  }
 
 .topbanner {
     position: fixed;
@@ -72,6 +84,10 @@ a:link, a:hover {
     opacity: 0%;
     }
   }
+
+.yourphototext {
+    font-family: 'Roboto Condensed', sans-serif;
+}
 
 .sticker {
     position: fixed;
