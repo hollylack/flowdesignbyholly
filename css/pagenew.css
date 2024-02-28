@@ -191,6 +191,15 @@ max-width: 90%;
             }
           }
 
+          @media screen and (max-width: 600pt) {
+            div.FlexcontainerG {
+                padding-top:0px;
+                width:100%;
+                background: rgb(247, 246, 243);
+                margin-bottom: 10px;
+            }
+          }
+
           @media screen and (max-width: 600px) {
             div.FlexcontainerZ {
                margin-left: 0%;
@@ -250,7 +259,7 @@ max-width: 90%;
     height: 250px;
     text-align: center;
     padding-bottom: 0px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .image {
@@ -442,7 +451,7 @@ h4 {
     flex-wrap: wrap;
     justify-content:center;
     font-family: 'Roboto Condensed', sans-serif;
-    margin: 10px;
+    margin: 0px;
     font-size: 12pt;
 }
 
@@ -592,7 +601,7 @@ h4 {
     color: black;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .orderdetails2 {
