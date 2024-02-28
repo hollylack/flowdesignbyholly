@@ -249,7 +249,7 @@ max-width: 90%;
 .logo {
     height: 250px;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     margin-top: 20px;
 }
 
@@ -277,10 +277,11 @@ height: 20px;
 
 .title {
     font-family: 'Cedarville Cursive', cursive;
-    font-size: 22pt;
+    font-size: 26pt;
     align-items: center;
     justify-content: center;
     margin-top: 10pt;
+    display: inline-block;
     color: black;
 }
 
@@ -333,6 +334,18 @@ h4 {
     border-radius: 6px;
     display: inline-block;
     font-size: 16px;
+    margin-top: 20px;
+    color: black;
+}
+
+.pagelinks {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: white;
+    padding: 2px;
+    width: 340px;
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 18px;
     margin-top: 20px;
     color: black;
 }
